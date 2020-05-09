@@ -13,6 +13,9 @@ body {
 .link:hover, .link:focus {
     color: var(--accent-color);
 }
+.list {
+    list-style: none;
+}
 /* Header */
 /* Logo */
 .logo {
