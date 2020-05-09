@@ -2,10 +2,59 @@
 Roboto normal 500 900 700 400 - main;
 
 */
-/* color: #2196F3 web blue;
-color: #212121 black;
-color: #757575 grey;
+/* 
 color: #FFFFFF; background: rgba(47, 48, 58, 0.8);
 color: rgba(255, 255, 255, 0.6) footer mail;
 color: rgba(255, 255, 255, 0.4) footer phone; */
 /* background E5E5E5 */
+:root {
+    --primary-title-color: #212121;
+    --primary-text-color: color: #757575;
+    --accent-color: #2196F3;
+}
+body {
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+  background-color: #ffffff;
+}
+/* Header */
+/* Logo */
+.logo {
+  font-family: raleway, sans-serif;
+ text-decoration: none;
+ font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+}
+.logo:hover, .logo:focus {
+    color: var(--accent-color);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+/* Site navigation */
+.site-nav .link {
+    
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+/* Header link */
+.header-link {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+
+}
+.header-link:hover, .header-link:focus {
+    color: var(--accent-color);
+}
